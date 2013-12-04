@@ -8,6 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Document : NSPersistentDocument
+@interface Document : NSPersistentDocument <NSPopoverDelegate>
+
+@property (weak) IBOutlet NSPopover *popover;
+@property (unsafe_unretained) IBOutlet NSWindow *popoverWindow;
+
+- (IBAction)showPopover:(id)sender;
+
 
 @end

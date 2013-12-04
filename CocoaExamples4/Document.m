@@ -9,7 +9,8 @@
 #import "Document.h"
 
 @implementation Document
-
+@synthesize popover;
+@synthesize popoverWindow;
 - (id)init
 {
     self = [super init];
@@ -36,5 +37,17 @@
 {
     return YES;
 }
+
+- (IBAction)showPopover:(id)sender {
+    [popover showRelativeToRect:[sender bounds] ofView:sender preferredEdge:NSMaxXEdge];
+    
+}
+
+-(NSWindow *)detachableWindowForPopover:(NSPopover *)popover
+{
+    return popoverWindow;
+
+}
+
 
 @end
