@@ -22,6 +22,7 @@
 		9711D19B184DE13A001B59BC /* CocoaExamples4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9711D19A184DE13A001B59BC /* CocoaExamples4Tests.m */; };
 		9711D1A9184DFA92001B59BC /* turtleico4.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9711D1A8184DFA92001B59BC /* turtleico4.icns */; };
 		9711D1AB184DFAD5001B59BC /* fileicoturtle.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9711D1AA184DFAD5001B59BC /* fileicoturtle.icns */; };
+		973FC184184F5C4700BAB493 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973FC183184F5C4700BAB493 /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		9711D19A184DE13A001B59BC /* CocoaExamples4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaExamples4Tests.m; sourceTree = "<group>"; };
 		9711D1A8184DFA92001B59BC /* turtleico4.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = turtleico4.icns; path = ../turtleico4.icns; sourceTree = "<group>"; };
 		9711D1AA184DFAD5001B59BC /* fileicoturtle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = fileicoturtle.icns; path = ../fileicoturtle.icns; sourceTree = "<group>"; };
+		973FC182184F5C4700BAB493 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		973FC183184F5C4700BAB493 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				9711D17C184DE13A001B59BC /* Document.h */,
 				9711D17D184DE13A001B59BC /* Document.m */,
 				9711D17F184DE13A001B59BC /* Document.xib */,
+				973FC182184F5C4700BAB493 /* AppController.h */,
+				973FC183184F5C4700BAB493 /* AppController.m */,
 				9711D182184DE13A001B59BC /* MainMenu.xib */,
 				9711D188184DE13A001B59BC /* Images.xcassets */,
 				9711D185184DE13A001B59BC /* Document.xcdatamodeld */,
@@ -270,6 +275,7 @@
 				9711D187184DE13A001B59BC /* Document.xcdatamodeld in Sources */,
 				9711D17E184DE13A001B59BC /* Document.m in Sources */,
 				9711D177184DE13A001B59BC /* main.m in Sources */,
+				973FC184184F5C4700BAB493 /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +492,7 @@
 				9711D1A0184DE13A001B59BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9711D1A1184DE13A001B59BC /* Build configuration list for PBXNativeTarget "CocoaExamples4Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				9711D1A3184DE13A001B59BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
