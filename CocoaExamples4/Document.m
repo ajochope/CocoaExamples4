@@ -11,14 +11,19 @@
 @implementation Document
 @synthesize popover;
 @synthesize popoverWindow;
+@synthesize sliderValue;
+
 - (id)init
 {
     self = [super init];
     if (self) {
+        
         // Add your subclass-specific initialization here.
     }
     return self;
 }
+
+
 
 - (NSString *)windowNibName
 {

@@ -10,6 +10,7 @@
 
 @interface AppController : NSObject
 
+
 -(IBAction)activateSheet:(id)sender;
 
 @end

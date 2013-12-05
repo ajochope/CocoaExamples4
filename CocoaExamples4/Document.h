@@ -10,6 +10,8 @@
 
 @interface Document : NSPersistentDocument <NSPopoverDelegate>
 
+
+
 @property (weak) IBOutlet NSPopover *popover;
 @property (unsafe_unretained) IBOutlet NSWindow *popoverWindow;
 
