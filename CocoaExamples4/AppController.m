@@ -9,6 +9,30 @@
 #import "AppController.h"
 
 @implementation AppController
+@synthesize sheet = _sheet;
+
+-(IBAction)activateCustomSheet:(id)sender
+{
+    if(!_sheet){
+        [NSBundle loadNibNamed:@"sheet" owner:self];
+    }
+    
+    [NSApp beginSheet:self.sheet
+       modalForWindow:[[NSApp delegate] window]
+       modalDelegate:self
+       didEndSelector:NULL
+       contextInfo:NULL];
+}
+
+-(IBAction)closeCustomSheet:(id)sender
+{
+    [NSApp endSheet:self.sheet];
+    [self.sheet close];
+    self.sheet = nil;
+
+}
+
+
 -(IBAction)activateSheet:(id)sender
 {
     NSBeginAlertSheet(@"Alert on click button!!",

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97100A141850D7E8005FEE49 /* sheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97100A131850D7E8005FEE49 /* sheet.xib */; };
 		9711D16B184DE13A001B59BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9711D16A184DE13A001B59BC /* Cocoa.framework */; };
 		9711D175184DE13A001B59BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9711D173184DE13A001B59BC /* InfoPlist.strings */; };
 		9711D177184DE13A001B59BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9711D176184DE13A001B59BC /* main.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97100A131850D7E8005FEE49 /* sheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = sheet.xib; sourceTree = "<group>"; };
 		9711D167184DE13A001B59BC /* CocoaExamples4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaExamples4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9711D16A184DE13A001B59BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9711D16D184DE13A001B59BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -131,6 +133,7 @@
 				9711D17F184DE13A001B59BC /* Document.xib */,
 				973FC182184F5C4700BAB493 /* AppController.h */,
 				973FC183184F5C4700BAB493 /* AppController.m */,
+				97100A131850D7E8005FEE49 /* sheet.xib */,
 				9711D182184DE13A001B59BC /* MainMenu.xib */,
 				9711D188184DE13A001B59BC /* Images.xcassets */,
 				9711D185184DE13A001B59BC /* Document.xcdatamodeld */,
@@ -250,6 +253,7 @@
 				9711D181184DE13A001B59BC /* Document.xib in Resources */,
 				9711D1A9184DFA92001B59BC /* turtleico4.icns in Resources */,
 				9711D189184DE13A001B59BC /* Images.xcassets in Resources */,
+				97100A141850D7E8005FEE49 /* sheet.xib in Resources */,
 				9711D1AB184DFAD5001B59BC /* fileicoturtle.icns in Resources */,
 				9711D175184DE13A001B59BC /* InfoPlist.strings in Resources */,
 				9711D17B184DE13A001B59BC /* Credits.rtf in Resources */,

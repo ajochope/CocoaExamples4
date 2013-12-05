@@ -9,8 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface AppController : NSObject
-
+@property (assign) IBOutlet NSWindow *sheet;
 
 -(IBAction)activateSheet:(id)sender;
 
+-(IBAction)activateCustomSheet:(id)sender;
+-(IBAction)closeCustomSheet:(id)sender;
 @end

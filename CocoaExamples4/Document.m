@@ -11,7 +11,7 @@
 @implementation Document
 @synthesize popover;
 @synthesize popoverWindow;
-@synthesize sliderValue;
+
 
 - (id)init
 {
